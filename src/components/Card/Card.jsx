@@ -42,7 +42,11 @@ const navbarContent = [
     content: <Introduction />
   },
   {
-
+    name: "Education",
+    icon: education,
+    content: <Education />
+  },
+  {
     name: "Experience",
     icon: experience,
     content: <Experience />
@@ -56,10 +60,5 @@ const navbarContent = [
     name: "Skills",
     icon: skills,
     content: <Skills />
-  },
-  {
-    name: "Education",
-    icon: education,
-    content: <Education />
   },
 ]
