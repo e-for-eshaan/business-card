@@ -2,8 +2,9 @@ import './App.scss';
 import { Card } from './components';
 
 function App() {
+  let i = 0
   return (
-    <div className="App">
+    <div onLoad={() => console.log(i++)} className="App">
       <Card />
     </div>
   );

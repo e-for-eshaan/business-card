@@ -25,9 +25,9 @@ export const Introduction = () => {
       </div>
       <div className="iconTray">
         {links.map((item) => {
-          return <div className="iconLink">
+          return <a href={item.link} target="_blank" className="iconLink">
             <img src={item.icon} alt="" />
-          </div>
+          </a>
         })}
       </div>
     </div>
@@ -37,25 +37,23 @@ export const Introduction = () => {
 const links = [
   {
     icon: github,
-    link: "",
+    link: "https://github.com/e-for-eshaan",
   },
   {
     icon: portfolio,
-    link: "",
+    link: "https://e-for-eshaan.github.io/",
   },
   {
     icon: linkedin,
-    link: "",
+    link: "https://www.linkedin.com/in/eshaan-yadav-22b94b1b4/",
   },
   {
     icon: instagram,
-    link: "",
+    link: "https://instagram.com/eshaan_with_an_e",
   },
 
   {
     icon: twitter,
-    link: "",
+    link: "https://twitter.com/Eshaaaaann",
   },
-
-
 ]
