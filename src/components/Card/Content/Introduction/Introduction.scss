@@ -1,0 +1,39 @@
+@import "../../../../styles/Variable.scss";
+
+.introduction {
+  .introductionContent {
+    height: 240px;
+    text-align: left;
+    .emojiBullet {
+      margin-right: 10px;
+    }
+    ul {
+      list-style: none;
+      li {
+        margin: 10px 0;
+      }
+    }
+  }
+  .iconTray {
+    display: flex;
+    width: 90%;
+    margin: auto;
+    gap: 20px;
+    justify-content: space-between;
+
+    img {
+      width: 30px;
+    }
+    .iconLink {
+      background-color: $theme1;
+      flex: 1;
+      padding: 4px;
+      border-radius: 16px;
+      transition: 0.2s;
+      cursor: pointer;
+    }
+    .iconLink:hover {
+      opacity: 0.6;
+    }
+  }
+}
