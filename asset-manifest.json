@@ -1,11 +1,12 @@
 {
   "files": {
-    "main.css": "/business-card/static/css/main.52c12897.css",
-    "main.js": "/business-card/static/js/main.c90acf1a.js",
+    "main.css": "/business-card/static/css/main.183af5f0.css",
+    "main.js": "/business-card/static/js/main.ab13de60.js",
     "static/js/787.bc412fff.chunk.js": "/business-card/static/js/787.bc412fff.chunk.js",
     "static/media/zomato.png": "/business-card/static/media/zomato.9c62c536a4b162612c4b.png",
     "static/media/myImage.jpeg": "/business-card/static/media/myImage.daf8fcf3d7fbf6e64de3.jpeg",
     "static/media/prize.svg": "/business-card/static/media/prize.5304e1b709f858bdedfe77624ee3df83.svg",
+    "static/media/qr.svg": "/business-card/static/media/qr.d75c8d61d9763c03dcd0b62d76e77bcf.svg",
     "static/media/skills.svg": "/business-card/static/media/skills.b370b885ccfc4e124da92df213226ff6.svg",
     "static/media/github.svg": "/business-card/static/media/github.f90f16717df0c342966fc0e3f9c8519b.svg",
     "static/media/twitter.svg": "/business-card/static/media/twitter.b4604c89cdbf73a3ffd4536634a2cd7a.svg",
@@ -17,12 +18,12 @@
     "static/media/education.svg": "/business-card/static/media/education.d0495f068bcc6c006e81fee6e7761336.svg",
     "index.html": "/business-card/index.html",
     "static/media/portfolio.svg": "/business-card/static/media/portfolio.f1147f3258a846b12771a05a6b522edc.svg",
-    "main.52c12897.css.map": "/business-card/static/css/main.52c12897.css.map",
-    "main.c90acf1a.js.map": "/business-card/static/js/main.c90acf1a.js.map",
+    "main.183af5f0.css.map": "/business-card/static/css/main.183af5f0.css.map",
+    "main.ab13de60.js.map": "/business-card/static/js/main.ab13de60.js.map",
     "787.bc412fff.chunk.js.map": "/business-card/static/js/787.bc412fff.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.52c12897.css",
-    "static/js/main.c90acf1a.js"
+    "static/css/main.183af5f0.css",
+    "static/js/main.ab13de60.js"
   ]
 }
