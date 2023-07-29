@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/business-card/static/css/main.183af5f0.css",
+    "main.css": "/business-card/static/css/main.4a456c1b.css",
     "main.js": "/business-card/static/js/main.ab13de60.js",
     "static/js/787.bc412fff.chunk.js": "/business-card/static/js/787.bc412fff.chunk.js",
     "static/media/zomato.png": "/business-card/static/media/zomato.9c62c536a4b162612c4b.png",
@@ -18,12 +18,12 @@
     "static/media/education.svg": "/business-card/static/media/education.d0495f068bcc6c006e81fee6e7761336.svg",
     "index.html": "/business-card/index.html",
     "static/media/portfolio.svg": "/business-card/static/media/portfolio.f1147f3258a846b12771a05a6b522edc.svg",
-    "main.183af5f0.css.map": "/business-card/static/css/main.183af5f0.css.map",
+    "main.4a456c1b.css.map": "/business-card/static/css/main.4a456c1b.css.map",
     "main.ab13de60.js.map": "/business-card/static/js/main.ab13de60.js.map",
     "787.bc412fff.chunk.js.map": "/business-card/static/js/787.bc412fff.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.183af5f0.css",
+    "static/css/main.4a456c1b.css",
     "static/js/main.ab13de60.js"
   ]
 }
