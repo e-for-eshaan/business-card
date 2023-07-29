@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/business-card/static/css/main.6abb9330.css",
-    "main.js": "/business-card/static/js/main.cfea4424.js",
+    "main.css": "/business-card/static/css/main.52c12897.css",
+    "main.js": "/business-card/static/js/main.c90acf1a.js",
     "static/js/787.bc412fff.chunk.js": "/business-card/static/js/787.bc412fff.chunk.js",
     "static/media/zomato.png": "/business-card/static/media/zomato.9c62c536a4b162612c4b.png",
     "static/media/myImage.jpeg": "/business-card/static/media/myImage.daf8fcf3d7fbf6e64de3.jpeg",
@@ -17,12 +17,12 @@
     "static/media/education.svg": "/business-card/static/media/education.d0495f068bcc6c006e81fee6e7761336.svg",
     "index.html": "/business-card/index.html",
     "static/media/portfolio.svg": "/business-card/static/media/portfolio.f1147f3258a846b12771a05a6b522edc.svg",
-    "main.6abb9330.css.map": "/business-card/static/css/main.6abb9330.css.map",
-    "main.cfea4424.js.map": "/business-card/static/js/main.cfea4424.js.map",
+    "main.52c12897.css.map": "/business-card/static/css/main.52c12897.css.map",
+    "main.c90acf1a.js.map": "/business-card/static/js/main.c90acf1a.js.map",
     "787.bc412fff.chunk.js.map": "/business-card/static/js/787.bc412fff.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.6abb9330.css",
-    "static/js/main.cfea4424.js"
+    "static/css/main.52c12897.css",
+    "static/js/main.c90acf1a.js"
   ]
 }
