@@ -31,6 +31,8 @@
       border-radius: 16px;
       transition: 0.2s;
       cursor: pointer;
+      display: grid;
+      place-items: center;
     }
     .iconLink:hover {
       opacity: 0.6;
