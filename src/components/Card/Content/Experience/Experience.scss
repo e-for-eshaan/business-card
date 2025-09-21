@@ -1,0 +1,86 @@
+@import "../../../../styles/Variable.scss";
+
+.experience {
+  height: 360px;
+  padding-right: 20px;
+  position: relative;
+  width: 460px;
+  .title {
+    display: inline-flex;
+    gap: 20px;
+    align-items: center;
+    margin: auto;
+
+    .logo {
+      img {
+        width: 50px;
+        height: 50px;
+        border-radius: 16px;
+      }
+    }
+  }
+
+  .bullet {
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+    background: white;
+    position: absolute;
+    left: 50%;
+    transform: translate(-50%, 0%);
+  }
+
+  .upBullet {
+    bottom: -28px;
+  }
+
+  .downBullet {
+    top: -25px;
+  }
+
+  .experienceCard {
+    width: 250px;
+    display: inline-block;
+    position: absolute;
+    background-color: $theme1;
+    border-radius: 16px;
+    * {
+      margin: 0;
+    }
+    padding: 10px;
+  }
+  .upCard {
+    bottom: 55%;
+  }
+  .downCard {
+    top: 57%;
+  }
+  .timeline {
+    height: calc(100% - 50px);
+    position: relative;
+    width: 100%;
+    overflow-x: auto;
+    .line {
+      height: 6px;
+      background-color: $theme1;
+      position: absolute;
+      border-radius: 10px;
+      top: 50%;
+      left: 20px;
+    }
+  }
+}
+
+::-webkit-scrollbar {
+  height: 6px;
+}
+::-webkit-scrollbar-track {
+  background: $theme2;
+}
+::-webkit-scrollbar-thumb {
+  background: $theme1;
+  border-radius: 10px;
+}
+::-webkit-scrollbar-thumb:hover {
+  background: rgb(164, 150, 234);
+}

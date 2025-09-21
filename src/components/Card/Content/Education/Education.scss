@@ -1,0 +1,22 @@
+.educationWrapper {
+  width: 100%;
+  display: inline-flex;
+  flex-direction: column;
+
+  div {
+    display: flex;
+    gap: 20px;
+    margin: auto;
+    align-items: center;
+  }
+  .degree {
+    width: 100px;
+  }
+
+  .details {
+    width: 200px;
+  }
+  .marks {
+    width: 50px;
+  }
+}

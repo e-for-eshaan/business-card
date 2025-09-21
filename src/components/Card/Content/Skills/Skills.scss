@@ -1,0 +1,15 @@
+@import "../../../../styles/Variable.scss";
+
+.skillGrid {
+  display: flex;
+  flex-wrap: wrap;
+  padding: 10px;
+  justify-content: center;
+  padding-top: 60px;
+  .skill {
+    background-color: $theme1;
+    padding: 4px;
+    border-radius: 4px;
+  }
+  gap: 10px;
+}

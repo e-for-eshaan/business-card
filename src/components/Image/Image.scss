@@ -1,0 +1,37 @@
+@import "../../styles/Variable.scss";
+
+.imageSection {
+  padding: 20px;
+  background-color: $theme1;
+  color: white;
+  height: 360px;
+  width: 200px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-around;
+  .profile {
+    width: 175px;
+    height: 175px;
+    border-radius: 16px;
+    border: 4px solid white;
+    overflow: hidden;
+    position: relative;
+    img {
+      width: 100%;
+      height: 100%;
+    }
+    .dp {
+      position: absolute;
+      top: 0;
+      left: 0;
+      transition: 0.2s;
+    }
+  }
+  .profile:hover {
+    .dp {
+      top: 100%;
+      opacity: 0;
+    }
+  }
+}
