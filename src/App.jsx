@@ -1,5 +1,5 @@
 import './App.scss';
-import { Card } from './components';
+import { Card } from './components/index.jsx';
 
 function App() {
   return (
