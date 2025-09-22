@@ -1,8 +1,8 @@
 {
   "files": {
-    "main.css": "/business-card/static/css/main.4a456c1b.css",
-    "main.js": "/business-card/static/js/main.ab13de60.js",
-    "static/js/787.bc412fff.chunk.js": "/business-card/static/js/787.bc412fff.chunk.js",
+    "main.css": "/business-card/static/css/main.108aabda.css",
+    "main.js": "/business-card/static/js/main.d00dc5ce.js",
+    "static/js/488.471cbf49.chunk.js": "/business-card/static/js/488.471cbf49.chunk.js",
     "static/media/zomato.png": "/business-card/static/media/zomato.9c62c536a4b162612c4b.png",
     "static/media/myImage.jpeg": "/business-card/static/media/myImage.daf8fcf3d7fbf6e64de3.jpeg",
     "static/media/prize.svg": "/business-card/static/media/prize.5304e1b709f858bdedfe77624ee3df83.svg",
@@ -13,17 +13,17 @@
     "static/media/insta.svg": "/business-card/static/media/insta.577c67fc9c34601517928499c168d224.svg",
     "static/media/profile.svg": "/business-card/static/media/profile.bdc8308a227c4ab807dd299dee54ab18.svg",
     "static/media/awards.svg": "/business-card/static/media/awards.6dbbb75938ed7d33deba7d01475a9ca8.svg",
-    "static/media/experience.svg": "/business-card/static/media/experience.84dc12e39c3aa576168a98f583b56dbb.svg",
+    "static/media/experience.svg": "/business-card/static/media/experience.a56816350e3f3fef7c641e9e04af0044.svg",
     "static/media/linkedin.svg": "/business-card/static/media/linkedin.18a55b48805fe3fb9dd07df0ec25c8a4.svg",
     "static/media/education.svg": "/business-card/static/media/education.d0495f068bcc6c006e81fee6e7761336.svg",
     "index.html": "/business-card/index.html",
     "static/media/portfolio.svg": "/business-card/static/media/portfolio.f1147f3258a846b12771a05a6b522edc.svg",
-    "main.4a456c1b.css.map": "/business-card/static/css/main.4a456c1b.css.map",
-    "main.ab13de60.js.map": "/business-card/static/js/main.ab13de60.js.map",
-    "787.bc412fff.chunk.js.map": "/business-card/static/js/787.bc412fff.chunk.js.map"
+    "main.108aabda.css.map": "/business-card/static/css/main.108aabda.css.map",
+    "main.d00dc5ce.js.map": "/business-card/static/js/main.d00dc5ce.js.map",
+    "488.471cbf49.chunk.js.map": "/business-card/static/js/488.471cbf49.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.4a456c1b.css",
-    "static/js/main.ab13de60.js"
+    "static/css/main.108aabda.css",
+    "static/js/main.d00dc5ce.js"
   ]
 }
