@@ -1,8 +1,7 @@
 import React from "react";
+import { FaTrophy } from "react-icons/fa";
 
 import "./Awards.scss";
-
-import prize from '../../../../assets/prize.svg'
 
 export const Awards = () => {
   return (
@@ -10,10 +9,10 @@ export const Awards = () => {
       <h1>Awards</h1>
       <table>
         {
-          prizes.map(item => {
-            return <tr>
+          prizes.map((item, index) => {
+            return <tr key={index}>
               <td>
-                <img src={prize} alt="404" />
+                <FaTrophy />
               </td>
               <td>
                 <div>

@@ -5,15 +5,17 @@ import "./Experience.scss";
 import zomato from "../../../../assets/zomato.png"
 import techwondoe from "../../../../assets/techwondoe.jpg"
 import phurti from "../../../../assets/phurti.jpg"
+import studiohedgefund from "../../../../assets/studiohedgefund.jpeg"
+import middleware from "../../../../assets/middlewarehq.png"
 
 export const Experience = () => {
   return (
     <div className="content experience">
       <h1>Experience</h1>
       <div className="timeline">
-        <div style={{ width: experience.length * 300 + 90 }}>
-          <div className="line" style={{ width: experience.length * 340 }} />
-          {experience.map((item, index) => {
+        <div style={{ width: EXPERIENCE_DATA.length * 300 + 90 }}>
+          <div className="line" style={{ width: EXPERIENCE_DATA.length * 340 }} />
+          {EXPERIENCE_DATA.map((item, index) => {
             return <div
               className={`experienceCard ${!(index % 2) ? "upCard" : "downCard"}`}
               style={{ left: 20 + index * 300 }}
@@ -39,8 +41,42 @@ export const Experience = () => {
   )
 }
 
-
-const experience = [
+const EXPERIENCE_DATA = [
+  {
+    company: "STUDIO HEDGE FUND",
+    title: "Software Engineer",
+    description: [
+      "Stripped down React JS to its core to allow cautious rendering of heavy, data-intensive components.",
+      "Shipped end-to-end features, from conception, to design, to algorithms.",
+      "Created an in-house diffing algorithm to sync global and local states.",
+      "Set up testing suites, commit hooks, linting checks, and other configurations.",
+      "Revamped the frontend setup and design, and made the codebase production-ready ahead of the fund’s launch."
+    ],
+    skills: ["ReactJS", "Algorithms", "Testing", "CI/CD", "Frontend Architecture"],
+    date: {
+      start: "March 2025",
+      end: "Present"
+    },
+    location: "Remote",
+    logo: studiohedgefund
+  },
+  {
+    company: "MIDDLEWARE",
+    title: "Founding Engineer",
+    description: [
+      "Delivered responsive, high-performance UIs using Next.js, Material-UI, and Knex, ensuring scalability and cross-browser compatibility.",
+      "Developed in-house tooling, optimization wrappers, auto-error handling, dev-CLIs, dev-automations and dashboards, both for users and developers.",
+      "Designed and built custom data-visualization charts and reusable components.",
+      "Developed a sync orchestrator and link-sharing populator, enabling users and developers to debug data effectively."
+    ],
+    skills: ["Next.js", "Material-UI", "Knex", "Tooling", "Dashboards", "Data Visualization"],
+    date: {
+      start: "September 2023",
+      end: "March 2025"
+    },
+    location: "Gurugram, India",
+    logo: middleware
+  },
   {
     company: "ZOMATO",
     title: "Software Developer Intern",

@@ -10,7 +10,7 @@ export const Education = () => {
       <h1>Education</h1>
       <div className="educationWrapper">
         {
-          education.map(item => {
+          EDUCATION_DATA.map(item => {
             return <div>
               <div className="degree">
                 <h2>{item.title}</h2>
@@ -33,7 +33,7 @@ export const Education = () => {
   )
 }
 
-const education = [
+const EDUCATION_DATA = [
   {
     title: "B.Tech",
     description: "Delhi Technological University",

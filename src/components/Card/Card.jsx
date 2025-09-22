@@ -1,14 +1,15 @@
 import React, { useState } from "react";
+import { 
+  FaUser, 
+  FaGraduationCap, 
+  FaCode, 
+  FaBriefcase, 
+  FaTrophy 
+} from "react-icons/fa";
 
 import "./Card.scss";
 import { Image, SideBar } from "../../components";
 import { Awards, Education, Skills, Experience, Introduction } from "./Content";
-
-import profile from '../../assets/profile.svg'
-import education from '../../assets/education.svg'
-import skills from '../../assets/skills.svg'
-import experience from '../../assets/experience.svg'
-import awards from '../../assets/awards.svg'
 
 export const Card = () => {
   const [selectedMenu, setSelectedMenu] = useState({ ...navbarContent[0], index: 0 })
@@ -38,27 +39,27 @@ export const Card = () => {
 const navbarContent = [
   {
     name: "Introduction",
-    icon: profile,
+    icon: FaUser,
     content: <Introduction />
   },
   {
     name: "Education",
-    icon: education,
+    icon: FaGraduationCap,
     content: <Education />
   },
   {
     name: "Experience",
-    icon: experience,
+    icon: FaBriefcase,
     content: <Experience />
   },
   {
     name: "Awards",
-    icon: awards,
+    icon: FaTrophy,
     content: <Awards />
   },
   {
     name: "Skills",
-    icon: skills,
+    icon: FaCode,
     content: <Skills />
   },
 ]

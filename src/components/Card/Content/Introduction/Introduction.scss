@@ -27,12 +27,18 @@
     .iconLink {
       background-color: $theme1;
       flex: 1;
-      padding: 4px;
+      padding: 8px;
       border-radius: 16px;
       transition: 0.2s;
       cursor: pointer;
       display: grid;
       place-items: center;
+      
+      svg {
+        color: white;
+        width: 24px;
+        height: 24px;
+      }
     }
     .iconLink:hover {
       opacity: 0.6;

@@ -16,8 +16,9 @@ export const SideBar = ({ menu, selector, selected }) => {
       <ul>
         {
           menu.map((item, index) => {
+            const IconComponent = item.icon;
             return <li key={index} style={{ color: index === selected.index ? "white" : "black " }} onClick={() => selector({ ...item, index })}>
-              <img src={item.icon} alt="404" />
+              <IconComponent />
             </li>
           })
         }

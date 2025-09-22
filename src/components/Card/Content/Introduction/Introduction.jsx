@@ -1,12 +1,13 @@
 import React from "react";
+import { 
+  FaGithub, 
+  FaLinkedin, 
+  FaTwitter, 
+  FaInstagram, 
+  FaGlobe 
+} from "react-icons/fa";
 
 import "./Introduction.scss";
-
-import instagram from '../../../../assets/insta.svg'
-import linkedin from '../../../../assets/linkedin.svg'
-import twitter from '../../../../assets/twitter.svg'
-import portfolio from '../../../../assets/portfolio.svg'
-import github from "../../../../assets/github.svg"
 
 export const Introduction = () => {
   return (
@@ -14,19 +15,19 @@ export const Introduction = () => {
       <h1>I create, because I can!</h1>
       <div className="introductionContent">
         <ul>
-          <li><span className="emojiBullet">🌍</span>  I'm based in New Delhi</li>
+          <li><span className="emojiBullet">🌍</span>  I'm based in Gurgaon</li>
           <li><span className="emojiBullet">✉️</span>  You can contact me at eshaanyadav24@gmail.com</li>
-          <li><span className="emojiBullet">🚀</span>  I'm currently working at Zomato</li>
-          <li><span className="emojiBullet">🧠</span>  I'm learning WebDev Frameworks</li>
+          <li><span className="emojiBullet">🚀</span>  I'm currently working at Lotus Hedge Fund</li>
+          <li><span className="emojiBullet">🧠</span>  I'm learning to twist React, to achieve performance</li>
           <li><span className="emojiBullet">🤝</span>  I'm open to collaborating on projects</li>
           <li><span className="emojiBullet">🎵</span>  I also play Guitar and Piano!</li>
         </ul>
 
       </div>
       <div className="iconTray">
-        {links.map((item) => {
-          return <a href={item.link} target="_blank" className="iconLink">
-            <img src={item.icon} alt="" />
+        {links.map((item, index) => {
+          return <a href={item.link} target="_blank" rel="noopener noreferrer" className="iconLink" key={index}>
+            <item.icon />
           </a>
         })}
       </div>
@@ -36,24 +37,16 @@ export const Introduction = () => {
 
 const links = [
   {
-    icon: github,
+    icon: FaGithub,
     link: "https://github.com/e-for-eshaan",
   },
   {
-    icon: portfolio,
+    icon: FaGlobe,
     link: "https://e-for-eshaan.github.io/",
   },
   {
-    icon: linkedin,
+    icon: FaLinkedin,
     link: "https://www.linkedin.com/in/eshaan-yadav-22b94b1b4/",
   },
-  {
-    icon: instagram,
-    link: "https://instagram.com/eshaan_with_an_e",
-  },
-
-  {
-    icon: twitter,
-    link: "https://twitter.com/Eshaaaaann",
-  },
+ 
 ]
