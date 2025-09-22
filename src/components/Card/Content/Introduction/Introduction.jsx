@@ -42,7 +42,7 @@ const links = [
   },
   {
     icon: FaGlobe,
-    link: "https://e-for-eshaan.github.io/",
+    link: "https://e-for-eshaan.vercel.app/",
   },
   {
     icon: FaLinkedin,
